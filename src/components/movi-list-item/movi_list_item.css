@@ -1,0 +1,71 @@
+.list-gourp-item {
+    padding: 15px 20px;
+    border-bottom: 1px solid #3d5a80;
+
+}
+
+.list-gourp-item:last-child {
+    border-bottom: none;
+}
+
+.list-gourp-item span {
+    line-height: 35px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 550px;
+}
+
+.list-gourp-item input {
+    line-height: 35px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid rebeccapurple;
+    border-radius: 3px;
+}
+
+.list-gourp-item button {
+    width: 35px;
+    font-size: 20px;
+    margin: 3px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.list-gourp-item .btn-cookie {
+    color: #e09f3e;
+}
+
+.list-gourp-item .btn-trash {
+    color: #e5383b;
+}
+
+.list-gourp-item .fa-star {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 16px;
+    color: #ffd700;
+    transition: 0.3s all;
+    transform: translateX(30px);
+    opacity: 0;
+}
+
+.list-gourp-item.like .fa-star {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.list-gourp-item.favaurite .list-gourp-item-label,
+.list-gourp-item.favaurite .list-gourp-item-input {
+    color: #e09f3e;
+}
+
+.favaurite {
+    color: #e09f3e;
+}
+
+.list-gourp-item.favaurite .btn-star {
+    color: #aeaeae;
+}

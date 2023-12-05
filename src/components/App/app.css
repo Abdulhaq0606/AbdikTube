@@ -1,0 +1,55 @@
+.app {
+  width: 100%;
+  height: 100vh;
+  color: #000;
+}
+
+.content {
+  max-width: 100vh;
+  min-height: 100vh;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+
+.src_panel {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 4px;
+  background-color: #fcfcf5;
+  box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.src1 {
+  width: 800px;
+  height: 210px;
+  background-color: #0000006b;
+  border-radius: 4px;
+
+}
+
+.src2 {
+  margin-top: 20px;
+  width: 800px;
+  height: 110px;
+  background-color: #0000006b;
+  border-radius: 4px;
+
+}
+
+.src3 {
+  margin-top: 20px;
+  width: 800px;
+  height: 120px;
+  background-color: #0000006b;
+  border-radius: 4px;
+}
+
+.src4 {
+  margin-top: 20px;
+  width: 800px;
+  height: 60px;
+  background-color: #0000006b;
+  border-radius: 4px;
+}
